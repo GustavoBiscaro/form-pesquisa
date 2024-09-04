@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="./assets/css/normalize/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 <body>
-    
+    <h1>Cadastro</h1>
+    <h2>Preencha suas informações.</h2>
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name">
+        <label for="surname">Sobrenome</label>
+        <input type="text" id="surname">
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+        <label for="date">Idade</label>
+        <input type="date" id="date">
+        <label for="password">Senha</label>
+        <input type="password" id="password">
+        <label for="confirmpassword">Confirme sua senha</label>
+        <input type="password" id="confirmpassword">
+        <button type="submit">Enviar dados</button>
+    </form>
 </body>
 </html>
